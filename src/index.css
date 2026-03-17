@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/900.css";
+@import "@fontsource/outfit/500.css";
+@import "@fontsource/outfit/800.css";
+
+:root {
+  --bg-color: #050505;
+  --accent-blue: #3b82f6;
+  --accent-purple: #a855f7;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 16px rgba(16,185,129,0.8); }
+  50% { opacity: 0.6; box-shadow: 0 0 8px rgba(16,185,129,0.4); }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+.glass-morphism {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

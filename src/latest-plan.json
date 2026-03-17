@@ -1,0 +1,121 @@
+{
+  "scenes": [
+    {
+      "id": "scene1",
+      "durationSec": 2,
+      "label": "Introduction",
+      "motionGraphic": {
+        "shapeVocabulary": "simple shapes",
+        "movementBehavior": "fast expansion",
+        "thematicLink": "email explosion",
+        "layerPosition": "full",
+        "imageIntegration": false
+      },
+      "text": {
+        "headline": "MailMind"
+      },
+      "voiceLine": "Meet MailMind.",
+      "animationStyle": "burst",
+      "colorScheme": {
+        "key": "deep_electric",
+        "background": "#0a0a1a",
+        "primary": "#4f46e5",
+        "secondary": "#7c3aed",
+        "accent": "#06b6d4",
+        "textPrimary": "#f8fafc",
+        "textSecondary": "#94a3b8"
+      },
+      "audioPath": "/audio/scene-1773751981671-scene1.mp3",
+      "duration": 60
+    },
+    {
+      "id": "scene2",
+      "durationSec": 3,
+      "label": "Inbox Reading",
+      "motionGraphic": {
+        "shapeVocabulary": "envelope icons",
+        "movementBehavior": "smooth flow",
+        "thematicLink": "email reading",
+        "layerPosition": "foreground",
+        "imageIntegration": false
+      },
+      "text": {
+        "headline": "Reads Your Inbox",
+        "subtext": "automatically"
+      },
+      "voiceLine": "It reads your inbox for you.",
+      "animationStyle": "drift",
+      "colorScheme": {
+        "key": "deep_electric",
+        "background": "#0a0a1a",
+        "primary": "#4f46e5",
+        "secondary": "#7c3aed",
+        "accent": "#06b6d4",
+        "textPrimary": "#f8fafc",
+        "textSecondary": "#94a3b8"
+      },
+      "audioPath": "/audio/scene-1773751981671-scene2.mp3",
+      "duration": 90
+    },
+    {
+      "id": "scene3",
+      "durationSec": 4,
+      "label": "Auto Sorting",
+      "motionGraphic": {
+        "shapeVocabulary": "folder shapes",
+        "movementBehavior": "cascading folders",
+        "thematicLink": "email organization",
+        "layerPosition": "foreground",
+        "imageIntegration": false
+      },
+      "text": {
+        "headline": "Auto Sorts Emails",
+        "subtext": "into folders"
+      },
+      "voiceLine": "And auto-sorts emails into folders?",
+      "animationStyle": "cascade",
+      "colorScheme": {
+        "key": "deep_electric",
+        "background": "#0a0a1a",
+        "primary": "#4f46e5",
+        "secondary": "#7c3aed",
+        "accent": "#06b6d4",
+        "textPrimary": "#f8fafc",
+        "textSecondary": "#94a3b8"
+      },
+      "audioPath": "/audio/scene-1773751981671-scene3.mp3",
+      "duration": 120
+    },
+    {
+      "id": "scene4",
+      "durationSec": 5,
+      "label": "Conclusion",
+      "motionGraphic": {
+        "shapeVocabulary": "simple shapes",
+        "movementBehavior": "assembling pieces",
+        "thematicLink": "email management",
+        "layerPosition": "background",
+        "imageIntegration": false
+      },
+      "text": {
+        "headline": "MailMind"
+      },
+      "voiceLine": "Try MailMind today!",
+      "animationStyle": "assemble",
+      "colorScheme": {
+        "key": "deep_electric",
+        "background": "#0a0a1a",
+        "primary": "#4f46e5",
+        "secondary": "#7c3aed",
+        "accent": "#06b6d4",
+        "textPrimary": "#f8fafc",
+        "textSecondary": "#94a3b8"
+      },
+      "audioPath": "/audio/scene-1773751981671-scene4.mp3",
+      "duration": 150
+    }
+  ],
+  "totalDurationSec": 14,
+  "prompt": "Create a 14 second ad for an AI email assistant called MailMind. \nIt reads your inbox, drafts replies, and auto-sorts emails into folders. \nThe tone is clean, smart, and minimal — like a productivity app. \nUse a light background color, not dark. \nEach scene should have a concept connected to the visual — \nfor example floating envelopes assembling, or blocks sorting themselves \ninto groups. Make the motion graphics feel like they are explaining the \nproduct visually, not just decorating behind text. \nClose with \"Your inbox, handled.\" and mailmind.ai",
+  "imageProvided": false
+}

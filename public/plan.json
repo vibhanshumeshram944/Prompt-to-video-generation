@@ -1,0 +1,46 @@
+{
+  "scenes": [
+    {
+      "title": "Learn Fun",
+      "subtitle": "Engaging videos for kids",
+      "narration": "Spark Minds",
+      "type": "hook",
+      "duration": 90,
+      "audioPath": "/audio/scene-1773472741921-0.mp3"
+    },
+    {
+      "title": "Short Attention",
+      "subtitle": "Kids lose focus easily",
+      "narration": "Focus Lost",
+      "type": "problem",
+      "duration": 90,
+      "audioPath": "/audio/scene-1773472741921-1.mp3"
+    },
+    {
+      "title": "AI Magic",
+      "subtitle": "Captivating videos for young minds",
+      "narration": "Mind Captured",
+      "type": "feature",
+      "duration": 90,
+      "audioPath": "/audio/scene-1773472741921-2.mp3"
+    },
+    {
+      "title": "Endless Wonder",
+      "subtitle": "Endless imagination and curiosity",
+      "narration": "Pure Joy",
+      "type": "climax",
+      "duration": 90,
+      "audioPath": "/audio/scene-1773472741921-3.mp3"
+    },
+    {
+      "title": "Get Started",
+      "subtitle": "Create your AI video today",
+      "narration": "Start Now",
+      "type": "cta",
+      "duration": 90,
+      "audioPath": "/audio/scene-1773472741921-4.mp3"
+    }
+  ],
+  "prompt": "Make me an AI video for kids. Its feature is it has good attenction capture for kids.",
+  "imageProvided": false
+}

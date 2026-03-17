@@ -1,0 +1,28 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# remotion
+out
+.remotion
+build/
+
+# generated media
+public/audio/scene-*.mp3
+public/video-*.mp4
+*.mp4
+*.mp3
+
+# logs and cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.stylelintcache
+node_modules/
+.next/
+.serverless/
+.fusebox/
+.dynamodb/
+.cache/
